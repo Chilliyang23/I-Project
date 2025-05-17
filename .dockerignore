@@ -1,0 +1,43 @@
+# Node modules – always install fresh inside container
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and IDE files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Environment and config files (never copy secrets into image!)
+.env
+.env.*  # if you have .env.dev or .env.local, etc.
+
+# Git
+.git
+.gitignore
+
+# Docker
+.dockerignore
+
+# Tests & local tools
+test
+coverage
+__tests__/
+.vscode
+.idea
+*.test.js
+*.spec.js
+
+# Build output (optional: if you rebuild in container anyway)
+dist
+build
+
+# readme.md
+README.md

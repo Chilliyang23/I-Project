@@ -1,0 +1,14 @@
+{
+  "name": "i-project",
+  "version": "1.0.0",
+  "description": "How to run this app? ``` npm init -y           # to create a package.json npm install express   # install Express node app.js           # run the app ```",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
